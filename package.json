@@ -1,0 +1,45 @@
+{
+  "name": "js-node",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Javascript template for node projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:klauss-m/js-node.git"
+  },
+  "author": {
+    "name": "Klauss Marques",
+    "email": "klauss.marques@gmail.com"
+  },
+  "keywords": [
+    "template",
+    "Javascript",
+    "node"
+  ],
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest --passWithNoTests --coverage --config .jestrc.json",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.17.10",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@klauss-m/eslint-config": "^1.0.0",
+    "@klauss-m/prettier-config": "^1.0.2",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.5",
+    "husky": "^7.0.4",
+    "jest": "^28.0.3",
+    "lint-staged": "^12.4.1",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
+}
